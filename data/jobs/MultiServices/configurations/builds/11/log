@@ -1,0 +1,13 @@
+Started by upstream project "[8mha:AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JH3f0pySzODUorLM5NRifQBkCmKCyAAAAA==[0mMultiServices" build number [8mha:AAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZR/az8JH3f0pySzODUorLM5NRifUNDADfltKfKAAAA[0m11
+originally caused by:
+ Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYu/dLi1CL9otSURACRKbywvwAAAA==[0mrfakir
+Building on master in workspace /var/jenkins_home/workspace/MultiServices/default
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url http://172.21.0.2/rfakir/gitlab_test.git # timeout=10
+Fetching upstream changes from http://172.21.0.2/rfakir/gitlab_test.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress http://172.21.0.2/rfakir/gitlab_test.git +refs/heads/*:refs/remotes/origin/*
+Build was aborted
+Finished: ABORTED

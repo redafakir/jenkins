@@ -1,0 +1,18 @@
+version: '2'
+
+services:
+
+  jenkins:
+    image: jenkins:alpine
+    #restart: always
+    hostname: localhost
+
+    environment:
+       JAVA_OPTS:   -Djava.until.logging.conf.file=/var/jenkins_home/log.properties
+
+    ports:
+       - "8080:8080"
+       - "50000:50000"
+
+    volumes:
+        - /home/stagiaire/PycharmProjects/jenkins/data:/var/jenkins_home
